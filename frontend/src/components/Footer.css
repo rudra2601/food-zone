@@ -1,0 +1,45 @@
+/* Footer.css */
+.footer {
+    background-color: #f8f9fa; /* Light grey background */
+    border-top: 1px solid #dee2e6; /* Light grey border */
+  }
+  
+  .footer footer {
+    padding: 1rem 0;
+  }
+  
+  .footer .nav {
+    margin-bottom: 1rem;
+  }
+  
+  .footer .nav-item {
+    margin: 0 0.5rem;
+  }
+  
+  .footer .nav-link {
+    color: #8d959c; /* Medium grey text */
+    transition: color 0.3s ease;
+  }
+  
+  .footer .nav-link:hover {
+    color: #343a40; /* Dark grey on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .footer p {
+    margin: 0;
+    color: #2384da; /* Medium grey text */
+  }
+  
+  /* Optional: Make footer responsive */
+  @media (max-width: 576px) {
+    .footer .nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer .nav-item {
+      margin: 0.5rem 0;
+    }
+  }
+  
